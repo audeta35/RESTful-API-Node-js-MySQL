@@ -1,0 +1,25 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "basic node js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/audeta35/Belajar-Node-JS.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "audeta35",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/audeta35/Belajar-Node-JS/issues"
+  },
+  "homepage": "https://github.com/audeta35/Belajar-Node-JS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
