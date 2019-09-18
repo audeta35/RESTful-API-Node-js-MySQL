@@ -7,18 +7,27 @@
     <link rel="stylesheet" href="css/bootstrap.css"/>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="jumbotron">
-            <h1 class="display-4">Hello, {{name}}!</h1>
-            <p class="lead">Halaman Bootstrap menggunakan node js</p>
-            <hr class="my-4">
-            <a class="btn btn-primary btn-lg" href="/post" role="button">Buka Form</a>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="img-fluid" src="img/node.png" width="110" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Form</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
+    </nav>
 
     <!--Load bootstrap.js file-->
     <script src="js/bootstrap.js"></script>
