@@ -1,10 +1,16 @@
-const http = require('http');
+const express = require('express');
+const app = express();
 
-http.createServer(function(req,res){
-  res.writeHead(200,{
-    "Content-Type" : "text/html"
-  });
-  res.end("Hello World!");
-}).listen(8000);
+//route untuk halaman home
+app.get('/',(req, res) => {
+  res.send('Welcome To Express');
+});
 
-console.log('Server berjalan di http://localhost:8000');
+//route untuk halaman about
+app.get('/about',(req, res) => {
+  res.send('This is about page');
+});
+
+app.listen(8000, () => {
+  console.log('Server is running at port 8000');
+});

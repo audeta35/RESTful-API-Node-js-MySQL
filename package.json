@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/audeta35/Belajar-Node-JS#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "hbs": "^4.0.4"
   }
 }
